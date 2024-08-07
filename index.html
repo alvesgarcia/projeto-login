@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <main>
+        <form class="login" action="login.php">
+            <div>
+                <h1>Seja bem vindo!</h1>
+                <h2>Acesse sua conta</h2>
+            </div>
+            <div>
+                <input class="button-login" type="button" value="Entrar">
+            </div>
+            <div><p>Esqueci minha senha</p></div>
+        </form>
+        <form class="cadastro" action="cadastro.php" method="post">
+            <div>
+                <h1>Crie sua conta</h1>
+                <p>Preencha o formulário</p>
+            </div>
+
+            <div><input class="dados" type="text" name="nome" id="inome" placeholder="Nome"></div>
+            <div><input class="dados" type="email" name="Email" id="iemail" placeholder="Email"></div>
+            <div><input class="dados" type="password" name="Senha" id="isenha" placeholder="Senha"></div>
+            <div><input class="button-cadastro" type="submit" value="Cadastrar"></div>
+        </form>
+    </main>
+
+
+</body>
+
+</html>
